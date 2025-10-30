@@ -1,0 +1,38 @@
+name: Deploy Lottery App to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main   # จะ deploy อัตโนมัติเมื่อ push branch main
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Publish Blazor WebAssembly
+        run: dotnet publish -c Release -o dist
+
+      - name: Fix base href for GitHub Pages
+        run: sed -i 's|<base href="/" />|<base href="/Lottery/" />|' dist/wwwroot/index.html
+
+      - name: Create 404.html
+        run: cp dist/wwwroot/index.html dist/wwwroot/404.html
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: dist/wwwroot
