@@ -199,8 +199,6 @@
 /Users/wutipong/Desktop/c#/On Web/Lottery/bin/Debug/net9.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat
 /Users/wutipong/Desktop/c#/On Web/Lottery/bin/Debug/net9.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat
 /Users/wutipong/Desktop/c#/On Web/Lottery/bin/Debug/net9.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat
-/Users/wutipong/Desktop/c#/On Web/Lottery/bin/Debug/net9.0/wwwroot/_framework/Lottery.5zhj0emq0n.wasm
-/Users/wutipong/Desktop/c#/On Web/Lottery/bin/Debug/net9.0/wwwroot/_framework/Lottery.0be9bhv5xj.pdb
 /Users/wutipong/Desktop/c#/On Web/Lottery/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json
 /Users/wutipong/Desktop/c#/On Web/Lottery/bin/Debug/net9.0/wwwroot/_framework/blazor.webassembly.js.gz
 /Users/wutipong/Desktop/c#/On Web/Lottery/bin/Debug/net9.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.z6jo10m0rd.wasm.gz
@@ -403,8 +401,6 @@
 /Users/wutipong/Desktop/c#/On Web/Lottery/bin/Debug/net9.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat.gz
 /Users/wutipong/Desktop/c#/On Web/Lottery/bin/Debug/net9.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat.gz
 /Users/wutipong/Desktop/c#/On Web/Lottery/bin/Debug/net9.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat.gz
-/Users/wutipong/Desktop/c#/On Web/Lottery/bin/Debug/net9.0/wwwroot/_framework/Lottery.5zhj0emq0n.wasm.gz
-/Users/wutipong/Desktop/c#/On Web/Lottery/bin/Debug/net9.0/wwwroot/_framework/Lottery.0be9bhv5xj.pdb.gz
 /Users/wutipong/Desktop/c#/On Web/Lottery/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json.gz
 /Users/wutipong/Desktop/c#/On Web/Lottery/bin/Debug/net9.0/Lottery.staticwebassets.runtime.json
 /Users/wutipong/Desktop/c#/On Web/Lottery/bin/Debug/net9.0/Lottery.staticwebassets.endpoints.json
@@ -1068,9 +1064,6 @@
 /Users/wutipong/Desktop/c#/On Web/Lottery/obj/Debug/net9.0/compressed/1uxauzfzbo-tjcz0u77k5.gz
 /Users/wutipong/Desktop/c#/On Web/Lottery/obj/Debug/net9.0/compressed/jlamjktlz6-tptq2av103.gz
 /Users/wutipong/Desktop/c#/On Web/Lottery/obj/Debug/net9.0/compressed/f1dc419nbv-lfu7j35m59.gz
-/Users/wutipong/Desktop/c#/On Web/Lottery/obj/Debug/net9.0/compressed/qbij9f4umg-5zhj0emq0n.gz
-/Users/wutipong/Desktop/c#/On Web/Lottery/obj/Debug/net9.0/compressed/1cpi7942mb-0be9bhv5xj.gz
-/Users/wutipong/Desktop/c#/On Web/Lottery/obj/Debug/net9.0/compressed/dk0s1dptb0-irnt9xhvq5.gz
 /Users/wutipong/Desktop/c#/On Web/Lottery/obj/Debug/net9.0/staticwebassets.build.json
 /Users/wutipong/Desktop/c#/On Web/Lottery/obj/Debug/net9.0/staticwebassets.build.json.cache
 /Users/wutipong/Desktop/c#/On Web/Lottery/obj/Debug/net9.0/staticwebassets.development.json
@@ -1080,3 +1073,11 @@
 /Users/wutipong/Desktop/c#/On Web/Lottery/obj/Debug/net9.0/refint/Lottery.dll
 /Users/wutipong/Desktop/c#/On Web/Lottery/obj/Debug/net9.0/Lottery.pdb
 /Users/wutipong/Desktop/c#/On Web/Lottery/obj/Debug/net9.0/ref/Lottery.dll
+/Users/wutipong/Desktop/c#/On Web/Lottery/obj/Debug/net9.0/Lottery.sourcelink.json
+/Users/wutipong/Desktop/c#/On Web/Lottery/bin/Debug/net9.0/wwwroot/_framework/Lottery.ojktgcxt4r.wasm
+/Users/wutipong/Desktop/c#/On Web/Lottery/bin/Debug/net9.0/wwwroot/_framework/Lottery.cjmbgnq2om.pdb
+/Users/wutipong/Desktop/c#/On Web/Lottery/bin/Debug/net9.0/wwwroot/_framework/Lottery.ojktgcxt4r.wasm.gz
+/Users/wutipong/Desktop/c#/On Web/Lottery/bin/Debug/net9.0/wwwroot/_framework/Lottery.cjmbgnq2om.pdb.gz
+/Users/wutipong/Desktop/c#/On Web/Lottery/obj/Debug/net9.0/compressed/qbij9f4umg-ojktgcxt4r.gz
+/Users/wutipong/Desktop/c#/On Web/Lottery/obj/Debug/net9.0/compressed/1cpi7942mb-cjmbgnq2om.gz
+/Users/wutipong/Desktop/c#/On Web/Lottery/obj/Debug/net9.0/compressed/dk0s1dptb0-qh3sfae4c8.gz
