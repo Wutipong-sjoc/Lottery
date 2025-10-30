@@ -1,7 +1,7 @@
 using System.Text.RegularExpressions; //To support Regex(Regular Expression) function.
 using System.Collections.Generic; //For dictionaly. 
 using System.Linq; //For checking all list in array are contains something for one time.
-using System;
+using System; //System basic library.
 
 namespace StringManageClass.Utility
 {
