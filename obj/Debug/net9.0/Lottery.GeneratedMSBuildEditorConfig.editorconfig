@@ -28,6 +28,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/wutipong/Desktop/c\#/On Web/Lottery/Pages/AddingPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRkaW5nUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/wutipong/Desktop/c\#/On Web/Lottery/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,8 +44,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZVBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/wutipong/Desktop/c\#/On Web/Lottery/Pages/MainPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFpblBhZ2UucmF6b3I=
+[/Users/wutipong/Desktop/c\#/On Web/Lottery/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/wutipong/Desktop/c\#/On Web/Lottery/Pages/Weather.razor]
