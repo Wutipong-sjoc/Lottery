@@ -1,4 +1,4 @@
-@page "/mainpage"
+@page "/AddingPage"
 @using StringManageClass.Utility
 
 @using System.Text.RegularExpressions; 
@@ -18,10 +18,10 @@
 @* <br/> (ตัวเลือก) สามารถใช้ <br/> เพื่อขึ้นบรรทัดใหม่ได้ถ้าต้องการ *@
 
 <div style="text-align: center;"
-    <button @onclick="EnterVal_Clicked" 
+    <button @onclick="EnterVal_Clicked" class="btn btn-primary btn-lg"
             style="background-color:green;color:white; font-weight: bold; font-size: 16px">Enter
     </button>
-    <button @onclick="ClearVal_Clicked" 
+    <button @onclick="ClearVal_Clicked" class="btn btn-warning btn-lg"
             style="background-color:orange;color:white; font-weight: bold; font-size: 16px">Clear
     </button>
 </div>
