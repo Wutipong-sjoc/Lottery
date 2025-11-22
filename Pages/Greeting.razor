@@ -1,0 +1,51 @@
+﻿@page "/"
+@* 
+    ont-size	32px                    เพิ่มขนาดฟอนต์ ให้ใหญ่ขึ้นเล็กน้อย (จาก 28px) เพื่อความโดดเด่น
+    color	#DC3545	                    เปลี่ยนเป็น สีแดงสด (หรือสีที่คล้ายกับสีแดงของสลากฯ) เพื่อดึงดูดความสนใจ
+    font-family	'Tahoma', sans-serif    เปลี่ยนไปใช้ Tahoma ซึ่งเป็นฟอนต์ที่อ่านง่ายและคมชัดกว่าสำหรับภาษาไทยและตัวเลข
+    font-weight	bold	                ทำให้ฟอนต์หนาขึ้นเพื่อเน้นย้ำ
+    text-shadow	2px 2px 4px #AAAAAA	    เพิ่มเงาให้ข้อความ (2px แนวนอน, 2px แนวตั้ง, 4px เบลอ, สีเทาอ่อน) ทำให้ข้อความดูมีมิติและดู "Pop" ขึ้นมาเล็กน้อย
+*@
+<div style="text-align: center; 
+            padding: 15px; /* เพิ่มช่องว่างภายใน */
+            background-color: #F8F9FA; /* สีพื้นหลังอ่อนๆ ให้ดูเป็นกรอบ */
+            border-bottom: 3px solid #DC3545; /* เพิ่มเส้นขอบด้านล่างเป็นสีแดง */
+            margin-bottom: 20px;">
+    <h3 style="font-size: 36px; 
+               color: #8B0000; /* สีแดงเข้มแบบกำมะหยี่ */
+               font-family: 'Tahoma', 'Arial', sans-serif; 
+               font-weight: 900; /* หนาพิเศษ */
+               text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);">
+        ผลสลากกินแบ่งรัฐบาล 16 ตุลาคม 2568 @* <--- Hardcode วันที่ *@
+    </h3>
+</div>
+
+<div class="mx-auto" style="max-width: 850px; text-align: center;">
+    <table class="table table-bordered table-striped text-center" style="font-size: 18px; border-collapse: collapse;">
+        <thead>
+            <tr style="background-color: #E9ECEF; font-weight: bold;">
+                <td style="width: 20%;">รางวัลที่ 1</td>
+                <td colspan="2" style="width: 30%;">เลขหน้า 3 ตัว</td>
+                <td colspan="2" style="width: 30%;">เลขท้าย 3 ตัว</td>
+                <td style="width: 20%;">เลขท้าย 2 ตัว</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="font-size: 26px; font-weight: 900; color: #DC3545; vertical-align: middle;">
+                    059696 @* <--- Hardcode รางวัลที่ 1 *@
+                </td>
+                
+                <td style="font-size: 20px; font-weight: bold; vertical-align: middle;">531</td> @* <--- Hardcode *@
+                <td style="font-size: 20px; font-weight: bold; vertical-align: middle;">955</td> @* <--- Hardcode *@
+                
+                <td style="font-size: 20px; font-weight: bold; vertical-align: middle;">476</td> @* <--- Hardcode *@
+                <td style="font-size: 20px; font-weight: bold; vertical-align: middle;">889</td> @* <--- Hardcode *@
+                
+                <td style="font-size: 26px; font-weight: 900; color: #DC3545; vertical-align: middle;">
+                    61 @* <--- Hardcode เลขท้าย 2 ตัว *@
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

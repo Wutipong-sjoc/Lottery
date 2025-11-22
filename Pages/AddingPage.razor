@@ -1,0 +1,111 @@
+@page "/AddingPage"
+@using StringManageClass.Utility
+
+@using System.Text.RegularExpressions; 
+@using System.Collections.Generic;
+@using System.Linq; 
+@using System;
+
+<div style="text-align: center;">
+    <h3>โปรดวางข้อมูลลงในช่องว่าง</h3>
+</div>
+
+<div style="text-align: center;"
+    <input  @bind="InputValue" placeholder="วางข้อความที่นี่" 
+            style="width: 90%; height: 50px; text-align: center; font-size: 14px; margin-bottom: 15px;"/>
+</div>
+
+@* <br/> (ตัวเลือก) สามารถใช้ <br/> เพื่อขึ้นบรรทัดใหม่ได้ถ้าต้องการ *@
+
+<div style="text-align: center;"
+    <button @onclick="EnterVal_Clicked" class="btn btn-primary btn-lg"
+            style="background-color:green;color:white; font-weight: bold; font-size: 16px">Enter
+    </button>
+    <button @onclick="ClearVal_Clicked" class="btn btn-warning btn-lg"
+            style="background-color:orange;color:white; font-weight: bold; font-size: 16px">Clear
+    </button>
+</div>
+
+<hr/>  @* hr/ Horizontal Rule  >> เส้นแบ่งแนวนอน *@
+
+<div style="text-align: center;">
+    <h3>Preview</h3>
+    <p>ชื่อ: @NameDisplay</p>
+</div>
+@*  class="mx-auto" >> จัดกึ่งกลาง m ย่อมาจาก Margin (ระยะขอบ), x ย่อมาจาก X-axis, auto คือการกำหนดค่า Margin
+    style="max-width: 600px;"   >>  max-width ย่อมาจาก Maximum Width (ความกว้างสูงสุด), 600px คือ 600 Pixels
+*@
+<div class="mx-auto" style="max-width: 600px;">
+    @*  table-bordered  >>  เพิ่มเส้นขอบรอบ ๆ ทุก Cell และตาราง
+        table-striped   >>  ทำให้แถวสลับสี (แถวคู่/คี่) เพื่อให้ง่ายต่อการอ่าน
+        table-hover     >>  เมื่อนำเมาส์ไปชี้ที่แถวใด แถวนั้นจะมีสีพื้นหลังเปลี่ยนไปเล็กน้อย
+    *@
+    <table class="table table-bordered table-striped table-hover text-center">
+        <thead>
+            <tr>
+                <th>Number</th>
+                <th>บน</th>
+                <th>ล่าง</th>
+                <th>โต๊ด</th>
+                <th>วัน/เดือน/ปี</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in PreviewList)
+            {
+                <tr>
+                    <td>@item.Num</td>
+                    <td>@item.Top</td>
+                    <td>@item.Bot</td>
+                    <td>@item.Tode</td>
+                    <td>@item.RecordDate</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</Div>
+
+@code {
+    private string InputValue = "";
+    private string NameDisplay = "";
+    private List<PreviewItem> PreviewList = new();
+
+    class PreviewItem
+        {
+            public string? Num { get; set; } = "";
+            public string? Top { get; set; } = "";
+            public string? Bot { get; set; }  = "";
+            public string? Tode { get; set; } = "";
+            public DateTime RecordDate { get; set; } 
+        }
+
+    void EnterVal_Clicked()
+    {
+        //Calling the stringManage class
+        stringManage processor = new stringManage(InputValue); 
+
+        if (stringManage.DataCollection.ContainsKey(stringManage.Name_key)) //Checking the dic contains the key or not.
+        {
+            List<RecordAllData> dataList = stringManage.DataCollection[stringManage.Name_key]; //Adding all data in dic to datalist.
+            //Show the datalist in web.
+            PreviewList = dataList.Select(record => new PreviewItem 
+            {
+                // แปลงค่า int? ให้เป็น string พร้อมจัดการค่า null
+                Num = record.Num?.ToString() ?? "N/A",
+                Top = record.Top?.ToString() ?? "0",
+                Bot = record.Bot?.ToString() ?? "0",
+                Tode = record.Tode?.ToString() ?? "0",
+                RecordDate = record.RecordDate
+            }).ToList();
+        }
+        InputValue = ""; //Set input to empty.
+        NameDisplay = stringManage.Name_key;
+    }
+
+    void ClearVal_Clicked()
+    {
+        InputValue = "";
+        PreviewList.Clear();
+        NameDisplay = "...";
+    }
+}

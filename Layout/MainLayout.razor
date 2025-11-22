@@ -1,0 +1,46 @@
+﻿@using Lottery.Services
+@inherits LayoutComponentBase
+@inject NavigationManager Nav
+@inject UserState UserState
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4 d-flex justify-content-end">
+            @* <a href="@loginUrl" @onclick="OpenLink">@UserState.StringHead</a> *@
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+@code {
+    @* private string loginUrl = "/Login";
+
+    protected override void OnInitialized()
+    {
+        // ให้ Layout รู้ว่าเมื่อค่าใน UserState เปลี่ยน ต้อง render ใหม่
+        UserState.OnChange += StateHasChanged;
+    }
+
+    private void OpenLink()
+    {
+        if (UserState.IsLoggedIn)
+        {
+            // ถ้าเข้าสู่ระบบแล้ว → ออกจากระบบ
+            UserState.IsLoggedIn = false;
+            UserState.Email = string.Empty;
+            UserState.NotifyStateChanged();
+        }
+        else
+        {
+            // ถ้ายังไม่ login → ไปหน้า Login
+            Nav.NavigateTo(loginUrl);
+        }
+    } *@
+}
