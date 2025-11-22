@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Lottery",
   "resources": {
-    "hash": "sha256-MHp0fF0SElUdbE3z8bkkLdRkMVJIKL5zbXwv/CjbbBY=",
+    "hash": "sha256-jV5vq6CLctML1910oCsarlG92PJtXkmk9MGs4tnHIHE=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Components.ddjbhtjolv.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.ca5xgge1r2.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -37,7 +37,7 @@
       "System.Text.RegularExpressions.7mbooqnmio.wasm": "System.Text.RegularExpressions.wasm",
       "System.Threading.q2tgddxke7.wasm": "System.Threading.wasm",
       "System.Private.CoreLib.435fqaj0x6.wasm": "System.Private.CoreLib.wasm",
-      "Lottery.mbi3dh654u.wasm": "Lottery.wasm",
+      "Lottery.i2cb70xzjd.wasm": "Lottery.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.noby4tlk4d.js": "dotnet.native.js",
       "dotnet.native.qe75a9vfqn.wasm": "dotnet.native.wasm",
@@ -97,7 +97,7 @@
       "System.Text.Json.m4wdlob2qg.wasm": "sha256-5qjfGZGHbvBXYE9OBLQ32FHz6vObx9o8C5SsZm1rOto=",
       "System.Text.RegularExpressions.7mbooqnmio.wasm": "sha256-zwCDZ6tg/usonZx7sbJq/Wr2glXX4SLYaBlV9t4AaHk=",
       "System.Threading.q2tgddxke7.wasm": "sha256-zncUNmLvW8+ubA+sqWx5FiQfdH+7iXKdHOZT34w96r0=",
-      "Lottery.mbi3dh654u.wasm": "sha256-gjAy59ZE010Mnvk23r7NvVXeUScjl4IR1eRfV3QIlzg="
+      "Lottery.i2cb70xzjd.wasm": "sha256-Jre5Q64QDj7/LMsLu5Qg/ups2ZX5BGdV0fz7ZBEgAR4="
     }
   },
   "cacheBootResources": true,
