@@ -1762,11 +1762,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/wutipong/Desktop/Lottery/Lottery.csproj",
+      "projectUniqueName": "/Users/wutipong/Desktop/c#/Lottery/Lottery.csproj",
       "projectName": "Lottery",
-      "projectPath": "/Users/wutipong/Desktop/Lottery/Lottery.csproj",
+      "projectPath": "/Users/wutipong/Desktop/c#/Lottery/Lottery.csproj",
       "packagesPath": "/Users/wutipong/.nuget/packages/",
-      "outputPath": "/Users/wutipong/Desktop/Lottery/obj/",
+      "outputPath": "/Users/wutipong/Desktop/c#/Lottery/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/wutipong/.nuget/NuGet/NuGet.Config"

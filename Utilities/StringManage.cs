@@ -5,7 +5,7 @@ using System; //System basic library.
 
 namespace StringManageClass.Utility
 {
-    //To create the conditons that have for 3 status.
+    //To create the conditons that have for 3 status. Good for code readability.
     public enum CorrectionStatus
     {
         towards,
