@@ -2163,10 +2163,10 @@
 /Users/wutipong/Desktop/Lottery/obj/Debug/net9.0/Lottery.pdb
 /Users/wutipong/Desktop/Lottery/obj/Debug/net9.0/ref/Lottery.dll
 /Users/wutipong/Desktop/Lottery/obj/Debug/net9.0/compressed/5gngd9lna3-mk5ruriwhg.gz
-/Users/wutipong/Desktop/Lottery/bin/Debug/net9.0/wwwroot/_framework/Lottery.rrx9e7y6vf.wasm
-/Users/wutipong/Desktop/Lottery/bin/Debug/net9.0/wwwroot/_framework/Lottery.v5ptk0yc3o.pdb
-/Users/wutipong/Desktop/Lottery/bin/Debug/net9.0/wwwroot/_framework/Lottery.rrx9e7y6vf.wasm.gz
-/Users/wutipong/Desktop/Lottery/bin/Debug/net9.0/wwwroot/_framework/Lottery.v5ptk0yc3o.pdb.gz
-/Users/wutipong/Desktop/Lottery/obj/Debug/net9.0/compressed/qbij9f4umg-rrx9e7y6vf.gz
-/Users/wutipong/Desktop/Lottery/obj/Debug/net9.0/compressed/1cpi7942mb-v5ptk0yc3o.gz
-/Users/wutipong/Desktop/Lottery/obj/Debug/net9.0/compressed/dk0s1dptb0-e5tyzwp8y0.gz
+/Users/wutipong/Desktop/Lottery/bin/Debug/net9.0/wwwroot/_framework/Lottery.kldn6yn1b7.wasm
+/Users/wutipong/Desktop/Lottery/bin/Debug/net9.0/wwwroot/_framework/Lottery.g1sq45tc54.pdb
+/Users/wutipong/Desktop/Lottery/bin/Debug/net9.0/wwwroot/_framework/Lottery.kldn6yn1b7.wasm.gz
+/Users/wutipong/Desktop/Lottery/bin/Debug/net9.0/wwwroot/_framework/Lottery.g1sq45tc54.pdb.gz
+/Users/wutipong/Desktop/Lottery/obj/Debug/net9.0/compressed/qbij9f4umg-kldn6yn1b7.gz
+/Users/wutipong/Desktop/Lottery/obj/Debug/net9.0/compressed/1cpi7942mb-g1sq45tc54.gz
+/Users/wutipong/Desktop/Lottery/obj/Debug/net9.0/compressed/dk0s1dptb0-0hphxvvi8f.gz

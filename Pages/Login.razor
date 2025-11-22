@@ -69,7 +69,7 @@
     private async Task DoLogin()
     {
         var result = await JS.InvokeAsync<string>("loginUser", Email, Password);
-        Message = result != null ? $"Welcome: {result}" : "Login failed";
+        //Message = result != null ? $"Welcome: {result}" : "Login failed";
 
         if (result != null)
         {
@@ -78,7 +78,7 @@
             UserState.NotifyStateChanged(); // ✅ แจ้งให้ Layout รู้ว่าค่าเปลี่ยน
 
             // หลัง login สำเร็จ กลับหน้าแรก
-            Nav.NavigateTo("/");
+            //Nav.NavigateTo(Nav.BaseUri);
         }
     }
     private async Task Logout()
